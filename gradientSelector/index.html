@@ -3,6 +3,21 @@
         <script src="gradientSelector.js" ></script>
     </head>
     <body>
+    <form>
+        Some example form elements<br/>
+        <input type="text" placeholder="A super simple form!" />
+        <br/>
+        <input type="radio" name="radio"> To provide</input>
+        <input type="radio" name="radio"> a way to see</input>
+        <input type="radio" name="radio"> the gradient selector</input>
+        <input type="radio" name="radio"> in the wild</input>
+        <br />
+        
+        <select>
+            <option>See?</option>
+            <option>This is how it works</option>
+            <option>in some context</option>
+        </select>
         <input id="grad1" type="gradient"/>
         <script>
             document.getElementById("grad1").addEventListener("change", function(e){
